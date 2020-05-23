@@ -80,6 +80,8 @@ class BasePage(object):
             return self.driver.find_element_by_id(selector)
         selector_by = selector.split('=>')[0]
         selector_value = selector.split('=>')[1]
+        # print(selector_by)
+        # print(selector_value)
 
         if selector_by == "i" or selector_by == 'id':
             try:
@@ -201,12 +203,20 @@ class BasePage(object):
             if value == 1:
                 self.driver.switch_to_alert().accept()
                 # 点击弹出里面的确定按钮
-                logger.error("Handle alert pop ups is accept %s")
+                logger.info("Handle alert pop ups is accept %s")
             elif value == 2:
                 self.driver.switch_to_alert().dismiss()
-                logger.error("Handle alert pop ups is dismiss %s")
+                logger.info("Handle alert pop ups is dismiss %s")
                 # 点击弹出上面的X按钮
             else:
-                logger.error("Handle alert pop ups is failed %s" % value)
+                logger.info("Handle alert pop ups is failed %s" % value)
         except Exception as e:
             logger.error("Handle alert failed  Exception found %s" % e)
+
+    def switch_window(self):
+        handles = self.driver.window_handles
+        for handle in handles:  # 切换窗口
+            if handle != self.driver.current_window_handle:
+                self.driver.close()  # 关闭第一个窗口
+                self.driver.switch_to.window(handle)  # 切换到第二个窗口
+                logger.info('switch to second window', handle)

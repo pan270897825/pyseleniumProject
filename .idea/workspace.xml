@@ -1,8 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b38923b8-f080-4578-845b-3606f609ca52" name="默认的" comment="">
+    <list default="true" id="b38923b8-f080-4578-845b-3606f609ca52" name="默认的" comment="添加方法">
+      <change afterPath="$PROJECT_DIR$/ceshi/baiduSwitch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceshi/baidu_search1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/202005170150.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/202005170152.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/202005170153.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/202005170156.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/202005170157.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/202005170158.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/202005170200.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/202005240223.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/202005240226.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/202005240306.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/202005240307.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/202005240318.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pageobjects/baidusearchPage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testsuits/baidu_search1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testsuits/viewNBANews.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ceshi/testReadConfigFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/ceshi/testReadConfigFile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/basepage.py" beforeDir="false" afterPath="$PROJECT_DIR$/framework/basepage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202005130226.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202005130231.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202005130250.log" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +55,6 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -41,18 +62,21 @@
     <property name="ChangesTree.GroupingKeys" value="directory" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/testsuits" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
     <property name="settings.editor.splitter.proportion" value="0.23319755" />
     <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/ceshi" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="I:\pyWork\pyseleniumProject\testsuits" />
+      <recent name="I:\pyWork\pyseleniumProject\ceshi" />
       <recent name="I:\pyWork\seleniumJD\tools" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for ceshi.baidu_search.BaiduSearch">
-    <configuration name="testMyLog" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.baiduSwitch">
+    <configuration name="baiduSwitch" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pyseleniumProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -64,7 +88,8 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ceshi/testMyLog.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ceshi/baiduSwitch.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -73,28 +98,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="testReadConfigFile" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pyseleniumProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ceshi" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ceshi/testReadConfigFile.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for ceshi.baidu_search.BaiduSearch" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for baidu_search1.BaiduSearch1" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="pyseleniumProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -103,12 +107,13 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;ceshi.baidu_search.BaiduSearch&quot;" />
+      <option name="_new_target" value="&quot;baidu_search1.BaiduSearch1&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for ceshi.baidu_search.BaiduSearch.test_baidu_search" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for baidu_search.BaiduSearch.test_baidu_search" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="pyseleniumProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -117,12 +122,13 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;ceshi.baidu_search.BaiduSearch.test_baidu_search&quot;" />
+      <option name="_new_target" value="&quot;baidu_search.BaiduSearch.test_baidu_search&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in baidu_search.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in baidu_search1.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="pyseleniumProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -131,18 +137,34 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/ceshi/baidu_search.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/ceshi/baidu_search1.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in viewNBANews.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="pyseleniumProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testsuits" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/testsuits/viewNBANews.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for ceshi.baidu_search.BaiduSearch" />
-        <item itemvalue="Python tests.Unittests for ceshi.baidu_search.BaiduSearch.test_baidu_search" />
-        <item itemvalue="Python tests.Unittests in baidu_search.py" />
-        <item itemvalue="Python.testMyLog" />
-        <item itemvalue="Python.testReadConfigFile" />
+        <item itemvalue="Python.baiduSwitch" />
+        <item itemvalue="Python tests.Unittests in viewNBANews.py" />
+        <item itemvalue="Python tests.Unittests for baidu_search1.BaiduSearch1" />
+        <item itemvalue="Python tests.Unittests for baidu_search.BaiduSearch.test_baidu_search" />
+        <item itemvalue="Python tests.Unittests in baidu_search1.py" />
       </list>
     </recent_temporary>
   </component>
@@ -156,6 +178,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1589302203871</updated>
+      <workItem from="1589631107273" duration="1380000" />
+      <workItem from="1589634768032" duration="8701000" />
+      <workItem from="1590251490262" duration="4651000" />
     </task>
     <task id="LOCAL-00001" summary="第一次上传Git">
       <created>1589327273362</created>
@@ -178,78 +203,102 @@
       <option name="project" value="LOCAL" />
       <updated>1589331250356</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="上传Git111&#10;&#10;Signed-off-by: pan270897825 &lt;270897825@qq.com&gt;">
+      <created>1589331682539</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1589331682539</updated>
+    </task>
+    <task id="LOCAL-00005" summary="上传Git111&#10;&#10;Signed-off-by: pan270897825 &lt;270897825@qq.com&gt;">
+      <created>1589331735720</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1589331735720</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="第一次上传Git" />
     <MESSAGE value="上传Git111" />
-    <option name="LAST_COMMIT_MESSAGE" value="上传Git111" />
+    <MESSAGE value="上传Git111&#10;&#10;Signed-off-by: pan270897825 &lt;270897825@qq.com&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="上传Git111&#10;&#10;Signed-off-by: pan270897825 &lt;270897825@qq.com&gt;" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Notifications" timestamp="1589327388466">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1589327388466" />
-    <state x="1044" y="154" key="CommitChangelistDialog2" timestamp="1589331681280">
+    <state x="404" y="123" key="CommitChangelistDialog2" timestamp="1590262650146">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1044" y="154" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1589331681280" />
+    <state x="404" y="123" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1590262650146" />
     <state width="293" height="442" key="Diff.GoToChangePopup" timestamp="1589330697082">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="293" height="442" key="Diff.GoToChangePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1589330697082" />
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1589330819425">
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1590262586662">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589330819425" />
-    <state x="829" y="386" key="FileChooserDialogImpl" timestamp="1589330783655">
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590262586662" />
+    <state x="829" y="386" key="FileChooserDialogImpl" timestamp="1589666285164">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="829" y="386" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1589330783655" />
-    <state x="805" y="410" width="309" height="291" key="Github.ShareDialog" timestamp="1589331418677">
+    <state x="829" y="386" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1589666285164" />
+    <state x="769" y="416" key="Github.CreateGistDialog" timestamp="1589331842428">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="805" y="410" width="309" height="291" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589331418677" />
-    <state width="1899" height="281" key="GridCell.Tab.0.bottom" timestamp="1589330172048">
+    <state x="769" y="416" key="Github.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589331842428" />
+    <state x="805" y="410" width="309" height="291" key="Github.ShareDialog" timestamp="1589631197332">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589330172048" />
-    <state width="1899" height="281" key="GridCell.Tab.0.center" timestamp="1589330172048">
+    <state x="805" y="410" width="309" height="291" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589631197332" />
+    <state width="980" height="282" key="GridCell.Tab.0.bottom" timestamp="1590261844818">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589330172048" />
-    <state width="1899" height="281" key="GridCell.Tab.0.left" timestamp="1589330172048">
+    <state width="980" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590261844818" />
+    <state width="980" height="282" key="GridCell.Tab.0.center" timestamp="1590261844818">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589330172048" />
-    <state width="1899" height="281" key="GridCell.Tab.0.right" timestamp="1589330172048">
+    <state width="980" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590261844818" />
+    <state width="980" height="282" key="GridCell.Tab.0.left" timestamp="1590261844818">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589330172048" />
-    <state x="1179" y="271" key="RollbackChangesDialog" timestamp="1589327607424">
+    <state width="980" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590261844818" />
+    <state width="980" height="282" key="GridCell.Tab.0.right" timestamp="1590261844818">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1179" y="271" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589327607424" />
-    <state x="550" y="273" key="SettingsEditor" timestamp="1589331519917">
+    <state width="980" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590261844818" />
+    <state x="1179" y="271" key="RollbackChangesDialog" timestamp="1589331710640">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="550" y="273" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1589331519917" />
+    <state x="1179" y="271" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589331710640" />
+    <state x="550" y="273" key="SettingsEditor" timestamp="1589648847495">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="550" y="273" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1589648847495" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1589328482162">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -258,17 +307,27 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="618" y="179" width="840" height="783" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589308401260" />
-    <state x="1175" y="476" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589330606787">
+    <state x="1175" y="476" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589647117587">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1175" y="476" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1589330606787" />
+    <state x="1175" y="476" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1589647117587" />
     <state x="744" y="311" key="git4idea.merge.GitMergeDialog" timestamp="1589331555787">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="744" y="311" key="git4idea.merge.GitMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589331555787" />
-    <state x="744" y="311" key="git4idea.merge.GitPullDialog" timestamp="1589330171021">
+    <state x="744" y="311" key="git4idea.merge.GitPullDialog" timestamp="1589331791599">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="744" y="311" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589330171021" />
+    <state x="744" y="311" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589331791599" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/pyseleniumProject$Unittests_for_baidu_search_BaiduSearch_test_baidu_search.coverage" NAME="Unittests for baidu_search.BaiduSearch.test_baidu_search Coverage Results" MODIFIED="1590258235361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ceshi" />
+    <SUITE FILE_PATH="coverage/pyseleniumProject$Unittests_in_baidu_search_py.coverage" NAME="Unittests in baidu_search.py Coverage Results" MODIFIED="1589647209858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ceshi" />
+    <SUITE FILE_PATH="coverage/pyseleniumProject$Unittests_for_baidu_search1_BaiduSearch1.coverage" NAME="Unittests for baidu_search1.BaiduSearch1 Coverage Results" MODIFIED="1590258375321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ceshi" />
+    <SUITE FILE_PATH="coverage/pyseleniumProject$Unittests_in_baidu_search1_py.coverage" NAME="Unittests in baidu_search1.py Coverage Results" MODIFIED="1589651999735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ceshi" />
+    <SUITE FILE_PATH="coverage/pyseleniumProject$baiduSwitch.coverage" NAME="baiduSwitch Coverage Results" MODIFIED="1590261844804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ceshi" />
+    <SUITE FILE_PATH="coverage/pyseleniumProject$testReadConfigFile.coverage" NAME="testReadConfigFile Coverage Results" MODIFIED="1589647064723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ceshi" />
+    <SUITE FILE_PATH="coverage/pyseleniumProject$Unittests_for_baidu_search1_BaiduSearch1_test_baidu_search.coverage" NAME="Unittests for baidu_search1.BaiduSearch1.test_baidu_search Coverage Results" MODIFIED="1589651389090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ceshi" />
+    <SUITE FILE_PATH="coverage/pyseleniumProject$Unittests_in_viewNBANews_py.coverage" NAME="Unittests in viewNBANews.py Coverage Results" MODIFIED="1590261489764" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuits" />
   </component>
 </project>

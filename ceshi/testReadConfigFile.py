@@ -1,4 +1,4 @@
-#/usr/bin/env python
+# /usr/bin/env python
 # -*- coding: utf-8 -*-
 # @Time    : 2020/5/13 1:48
 # @Author  : Tomato
@@ -21,7 +21,7 @@ class TestReadConfigFile(object):
         browser = config.get("browserType", "browserName")
         url = config.get("testServer", "URL")
 
-        return (browser, url)  # 返回的是一个元组
+        return browser, url  # 返回的是一个元组
 
 
 trcf = TestReadConfigFile()
