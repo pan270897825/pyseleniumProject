@@ -31,6 +31,7 @@ class BaiduSearch1(unittest.TestCase):
         :return:
         """
         self.driver.quit()
+        self.driver.close()
 
     def test_baidu_search(self):
         """
@@ -48,7 +49,7 @@ class BaiduSearch1(unittest.TestCase):
             assert 'selenium' in search.get_page_title()
             logger.info("Test Pass.")
         except Exception as e:
-            logger.info("Test Fail %s" % e)
+            logger.error("Test Fail %s" % e)
 
     def test_search2(self):
         search = BaidusearchPage(self.driver)

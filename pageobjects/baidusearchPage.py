@@ -27,3 +27,8 @@ class BaidusearchPage(BasePage):
     def click_news(self):
         self.click(self.news_link)
         self.sleep(2)
+
+    def switch_newsWindow(self):
+        self.switch_window()
+
+

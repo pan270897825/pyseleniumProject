@@ -31,6 +31,7 @@ class BaiduSearch1(unittest.TestCase):
         :return:
         """
         self.driver.quit()
+        self.driver.close()
 
     def test_baidu_search(self):
         """

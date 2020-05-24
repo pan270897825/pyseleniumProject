@@ -25,7 +25,7 @@ class Logger(object):
         rq = time.strftime('%Y%m%d%H%M', time.localtime(time.time()))
         log_path = os.path.dirname(os.getcwd()) + '/logs/'
         log_name = log_path + rq + '.log'
-        print(log_name)
+        # print(log_name)
         fh = logging.FileHandler(log_name,  encoding='utf-8')
         fh.setLevel(logging.INFO)
 

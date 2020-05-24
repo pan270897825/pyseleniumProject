@@ -217,6 +217,8 @@ class BasePage(object):
         handles = self.driver.window_handles
         for handle in handles:  # 切换窗口
             if handle != self.driver.current_window_handle:
+                self.get_page_title()
                 self.driver.close()  # 关闭第一个窗口
                 self.driver.switch_to.window(handle)  # 切换到第二个窗口
-                logger.info('switch to second window', handle)
+                logger.info('Close the first window,switch to second window')
+                # self.get_page_title()
