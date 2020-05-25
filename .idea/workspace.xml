@@ -19,22 +19,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b38923b8-f080-4578-845b-3606f609ca52" name="默认的" comment="">
+    <list default="true" id="b38923b8-f080-4578-845b-3606f609ca52" name="默认的" comment="默认的">
       <change afterPath="$PROJECT_DIR$/logs/202005240415.log" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/logs/202005240443.log" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/logs/202005240450.log" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/logs/202005240451.log" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/logs/202005240454.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ceshi/baidu_search1.py" beforeDir="false" afterPath="$PROJECT_DIR$/ceshi/baidu_search1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/basepage.py" beforeDir="false" afterPath="$PROJECT_DIR$/framework/basepage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/framework/logger.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/202005130226.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/202005130231.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/202005130250.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pageobjects/baidusearchPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/pageobjects/baidusearchPage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testsuits/baidu_search1.py" beforeDir="false" afterPath="$PROJECT_DIR$/testsuits/baidu_search1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testsuits/viewNBANews.py" beforeDir="false" afterPath="$PROJECT_DIR$/testsuits/viewNBANews.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,7 +183,7 @@
       <updated>1589302203871</updated>
       <workItem from="1589631107273" duration="1380000" />
       <workItem from="1589634768032" duration="8701000" />
-      <workItem from="1590251490262" duration="9267000" />
+      <workItem from="1590251490262" duration="9977000" />
     </task>
     <task id="LOCAL-00001" summary="第一次上传Git">
       <created>1589327273362</created>
@@ -234,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590262897093</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="默认的">
+      <created>1590330426140</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1590330426140</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,7 +260,8 @@
     <MESSAGE value="上传Git111" />
     <MESSAGE value="上传Git111&#10;&#10;Signed-off-by: pan270897825 &lt;270897825@qq.com&gt;" />
     <MESSAGE value="添加方法" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加方法" />
+    <MESSAGE value="默认的" />
+    <option name="LAST_COMMIT_MESSAGE" value="默认的" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -269,10 +270,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1589327388466" />
-    <state x="0" y="23" width="1920" height="1017" key="CommitChangelistDialog2" timestamp="1590265027742">
+    <state x="0" y="23" width="1920" height="1017" key="CommitChangelistDialog2" timestamp="1590330423694">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="0" y="23" width="1920" height="1017" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1590265027742" />
+    <state x="0" y="23" width="1920" height="1017" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1590330423694" />
     <state width="293" height="442" key="Diff.GoToChangePopup" timestamp="1589330697082">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -293,22 +294,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="805" y="410" width="309" height="291" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589631197332" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1590267239658">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1590330371159">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590267239658" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1590267239658">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590330371159" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1590330371159">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590267239658" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1590267239658">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590330371159" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1590330371159">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590267239658" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1590267239658">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590330371159" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1590330371159">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590267239658" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590330371159" />
     <state x="1179" y="271" key="RollbackChangesDialog" timestamp="1589331710640">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
