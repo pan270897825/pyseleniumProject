@@ -49,7 +49,7 @@ class BaiduSearch1(unittest.TestCase):
             assert 'selenium' in search.get_page_title()
             logger.info("Test Pass.")
         except Exception as e:
-            logger.error("Test Fail %s" % e)
+            logger.info("Test Fail %s" % e)
 
     def test_search2(self):
         search = BaidusearchPage(self.driver)
@@ -59,5 +59,5 @@ class BaiduSearch1(unittest.TestCase):
         search.get_windows_img()  # 调用基类截图方法
 
 
-if __name__ == '__main__':
-    unittest.main()
+# if __name__ == '__main__':
+#     unittest.main()
